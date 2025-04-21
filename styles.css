@@ -1,0 +1,77 @@
+.heading {
+   text-align: center;
+   color: #226c6b;
+   font-weight: 800;
+   font-size: 50px;
+   /* background-color: #2bf5cd; */
+}
+
+/* .mainBox{
+    display: flex;
+    text-align: center;
+} */
+.container {
+   text-align: center;
+}
+
+.input {
+   margin: 10px;
+   padding: 20px 80px;
+   background: lightgreen;
+   font-size: larger;
+   border: 2px solid rgb(26, 125, 26);
+   border-radius: 20px;
+}
+.input:hover{
+   /* display: block; */
+   background: rgb(109, 212, 109);
+ }
+
+.addBtn {
+   padding: 10px 30px;
+   background: #2bf5cd;
+   /* border: none; */
+   border: 2px solid #187260;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+
+.addBtn:hover{
+   /* display: block; */
+   background: #1c463e(109, 178, 212);
+ }
+
+/* .listParent{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+ } */
+.liEditBtn {
+   padding: 5px 20px;
+   background: #2bf5cd;
+   border: 2px solid #187260;
+   border-radius: 20px;
+   margin-left: 10px;
+   cursor: pointer;
+   margin-top: 4px;
+
+}
+
+.liDeleteBtn {
+   padding: 5px 20px;
+   background: #2bf5cd;
+   border: 2px solid #187260;
+   border-radius: 20px;
+   cursor: pointer;
+   margin: 0px 1px;
+}
+.liElement{
+   /* text-align: center; */
+   margin: 0px 20%;
+   font-size: larger;
+   text-decoration: none;
+}
+body {
+   background-color: rgb(159, 211, 214);
+ }
